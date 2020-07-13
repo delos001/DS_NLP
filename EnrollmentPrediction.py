@@ -1,3 +1,6 @@
+## Note: this isn't working code.  I don't know who sent this to me
+##   but might be able to use as a starting point
+
 # possible to try and use this in clinical research
 # see path below for the github this comes from
 
@@ -14,10 +17,10 @@ from sklearn.model_selection import train_test_split
 import random
  
  
-raw_data=pd.read_csv("C:/Users/hucen/GitHub/pro/python/enrollment_rate/citeline_rare_disease.csv", header=1,
+raw_data=pd.read_csv("C:/path/citeline_rare_disease.csv", header=1,
                      names = ['INCLD_CRTERIA','EXCLD_CRTERIA'], encoding="ISO-8859-1")
  
-whole_data=pd.read_csv("C:/Users/hucen/GitHub/pro/python/enrollment_rate/citeline_rare_disease.csv", header=0,
+whole_data=pd.read_csv("C:/path/citeline_rare_disease.csv", header=0,
                      encoding="ISO-8859-1")
  
  
